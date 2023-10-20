@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito Sans");
+*{
+    font-family: "Nunito Sans";
+}
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: 460px;
+    background-position-y: 50px;
+    margin-left: 70px;
+    background-attachment: fixed;
+}
+
+img#cricpro-logo{
+    float: right;
+    margin-top: -50px;
+    margin-right: 40px;
+}
+
+h1#worldcup{
+    margin-top: 65px;
+    font-weight: 900;
+    font-size: 46px;
+    text-shadow: 3px 3px 4px grey;
+}
+
+h3#scorecard{
+    font-size: 20px;
+    margin-top: -35px;
+    color: gray;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 9px;
+    padding-left: 20px;
+    z-index: 0;
+    position: 0;
+}
+
+table tr #th2{
+    text-align: right;
+    padding-right: 10px;
+}
+
+table tr td, th{
+    padding: 7px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+table th{
+    background-color: #f05033;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+}
+
+table td{
+    border-bottom: 1px solid #dddada;
+}
+
+.SR{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0%;
+    font-weight: 500;
+    margin-left: 0px;
+}
+
+.R, .B, .s6, .s4{
+    text-align: right;
+    padding-right: 0px;
+    font-weight: 500;
+    margin-right: 0px;
+}
+
+.R{
+    font-weight: 600;
+}
+
+.extra-total{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+#blur{
+    position: absolute;
+    top: 170px;
+    bottom: 145px;
+    right: 573px;
+    left: 70px;
+    backdrop-filter: blur(6px);
+    display: none;
+    z-index: 4;
+}
+
+#close{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+    /* background-color: #2B81EE; */
+    display: none;
+}
+
+td:first-child{
+    color: #2B81EE;
+}
+
+#sehwag{
+    position: absolute;
+    bottom: 134px;
+    z-index: 5;
+}
+
+#sachin{
+    position: absolute;
+    z-index: 5;
+    bottom: 97px;
+}
+
+#gautam{
+    position: absolute;
+    z-index: 5;
+    bottom: 60px;
+}
+
+#virat{
+    position: absolute;
+    z-index: 5;
+    bottom: 21px;
+}
+
+#dhoni{
+    position: absolute;
+    z-index: 5;
+    bottom: -16px;
+}
+
+#yuvraj{
+    position: absolute;
+    z-index: 5;
+    bottom: -54px;
+}
+
+#raina{
+    position: absolute;
+    z-index: 5;
+    bottom: -190px;
+}
+
+#har{
+    position: absolute;
+    bottom: -190px;
+    z-index: 5;
+    left: 370px;
+}
+
+#khan{
+    position: absolute;
+    z-index: 5;
+    bottom: -190px;
+    left: 550px;
+}
+
+#munaf{
+    position: absolute;
+    bottom: -190px;
+    z-index: 5;
+    left: 650px;
+}
+
+#nath{
+    position: absolute;
+    bottom: -190px;
+    z-index: 5;
+    left: 760px;
+}
